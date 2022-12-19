@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: greenyellow;
+}
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    background-color: rgb(21, 123, 6);
+    text-align: right;
+}
+.collapse ul li a {
+    color: darkblue;
+}
+.spacer {
+    flex: 1 1 auto;
+}
+.correo {
+    text-align: center;
+    background-color: aqua;
+    color: aliceblue;
+}
+.title {
+    padding-top: 2rem;
+    font-size: medium;
+}
+footer{
+    text-align: center;
+}
+.navbar{
+    background-color: gray;
+}
+.navbar-expand-lg {
+    flex-wrap: nowrap;
+    justify-content: center;
+    color: darkslategrey;
+}
